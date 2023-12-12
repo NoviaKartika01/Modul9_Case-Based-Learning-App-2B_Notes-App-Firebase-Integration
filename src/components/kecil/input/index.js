@@ -5,6 +5,7 @@ import React from "react";
 
 const Input = ({ dropdown, textarea, width, height, fontSize, label, value, secureTextEntry, keyboardType, onChangeText, disabled }) => {
   if (textarea) {
+    // tampilan yang dirender saat kondidi textarea
     return (
       <VStack>
         <FormControlLabel marginTop={"$5"} flexDirection="column" alignItems="left">
@@ -18,6 +19,7 @@ const Input = ({ dropdown, textarea, width, height, fontSize, label, value, secu
   }
 
   return (
+    // tampilan input ditampilkan selain textarea
     <>
       <FormControlLabel marginTop={"$5"} flexDirection="column" alignItems="left">
         <Text fontSize={fontSize ? fontSize : "$md"} fontWeight="bold" mb={"$2"}>
