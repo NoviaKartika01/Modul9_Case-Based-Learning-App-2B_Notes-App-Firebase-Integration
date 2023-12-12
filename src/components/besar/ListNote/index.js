@@ -79,6 +79,7 @@ export default ListNote;
 
 
 
+
 // import React from "react";
 // import { Text, Pressable, Box, VStack, HStack, Heading } from "@gluestack-ui/themed";
 // import { IconDelete, IconEdit } from "../../../assets";
